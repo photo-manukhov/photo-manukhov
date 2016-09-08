@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td {
+	padding:0;
+	margin: 0;
+}
+
+body {
+	background-color: #000000;
+}
+
+#aligner_notused {
+	height: 1px;
+	position: absolute;
+	top: 50%;
+	overflow: visible;
+	width: 100%;
+	background-color: #006600;
+}
+
+#container {
+	clear:right; 
+	background-color: #484848;
+/*	padding-bottom: 3px; */
+	border-bottom: 3px #282828 solid;
+/*	margin-top: -290px; */
+}
+
+#top_menu {
+	float: right;
+	height: 25px;
+	list-style: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-right: 5px;
+	margin-top: 5px;
+}
+
+#top_menu li {
+	float: left;
+	margin-left: 10px;
+}
+
+#top_menu a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#top_menu a:hover {
+	color: #02597f;
+}
+ 
+#header {
+	/*margin-top: 25px;*/
+	background-image: url(../img/header-back.jpg);
+	background-repeat: repeat-x;
+	height: 100px;
+}
+
+#header, #menu {
+	padding-left: 5px;
+}
+
+#header img.logo {
+	float: left;
+	padding-right: 75px;
+}
+
+#menu, #content {
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+#content {
+	width: auto;
+	height: 450px;
+	overflow: auto;
+	margin-top: 10px
+/*	margin-right: 5px;
+	padding-left: 5px;
+*/	color: #A5AED2;
+	font-weight: bold;
+	border-left: 2px #383838 solid;
+}
+
+#content a {
+	color: #759e92;
+}
+
+#content: after {
+	clear: both;
+}
+
+#menu {
+	float: left;
+	display: inline;					/* IE hack for double margin bug */
+	width: 150px;
+	height: 450px;
+	border-right: 1px #585858 dashed;
+	padding-right: 2px;
+	overflow: hidden;
+}
+
+#menu a {								/* set the text style for the menu */
+	text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:11pt;
+	color:#FFFFFF;
+}
+
+#menu li {								/* indents */
+	padding-top: 2px;
+	padding-left: .5em; 
+	margin-top: 0px;
+	border-bottom: 1px #02597f dotted;
+}
+
+#menu ul, li {
+	list-style:none;					/* get rid of default list syling */ 
+	margin: 0;
+	text-align: left;
+}
+
+#menu li li:hover {
+	background-color:#04799f;
+}
+
+#menu li li li:hover {
+	background-color: #02597f;
+}
+
+#menu li img {							/* don't show border on menu's images in the list */
+	border: 0px;
+}
+
+#menu img.skull {
+	margin-left: -5px;
+	margin-bottom: 25px;
+}
+
+.spacer {
+	float: left;
+	padding-left:3px;
+}
+
+.mantas_spacer {
+	float: left;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+.ilona_spacer {
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.page_marker {
+	float: left;
+	margin-right: 2px;
+}
+
+#footer {
+	clear: left;
+	background-color: #000000;
+	text-align: right;
+	color: #666666;
+	font-size: 11pt;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#footer a:hover {
+	color: #02597f;
+}
+
+/*  CSS for Simple Tree Menu- © Dynamic Drive DHTML code library (www.dynamicdrive.com) */
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */ 
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}
+
+/* Thank you Dynamic Drive DHTML for providing the above code */
+
